@@ -1,0 +1,96 @@
+* {
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    
+}
+
+html,body {
+    width: 100%;
+    height: 100%;
+}
+
+#contenedorPrincipal {
+    
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 20px, 20px, 20px, 20px;
+    
+}
+
+.encabezadoCafe {
+    display: inline-block;
+    background-color: #8B4513; /* Color marrón */
+    color: white;
+    font-size: 24px;
+    padding: 10px;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.cuerpoNaranja{
+    background-color: orange;
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+    width: 100%;
+}
+
+.izquierda{
+    margin: 1%;
+    padding: 20px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+
+.derecha{
+    margin: 1%;
+    padding: 20px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    
+    align-items: start;
+}   
+
+.derechaSuperior {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: start;
+    width: auto;
+    height: auto;
+    margin: 1%;
+    padding: 10px;
+    box-sizing: content-box;
+}
+.derechaInferior{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: start;
+}
+
+#btn {
+    width: 200px;
+    height: 35px;
+    margin-top: 0px;
+    background-color: blue;
+    color: white;
+    font-size: 14pt;
+    box-shadow: 5px 5px 1px black;
+}
+#btn:hover {
+    border: 3px solid cyan;
+}
+
+#btn:active {
+    border: 3px solid grey;
+}
